@@ -1,0 +1,276 @@
+.navbar.navbar-expand-lg.bg-secondary{
+    background: #020024;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,45,121,1) 13%, rgba(0,168,255,1) 100%);
+ 
+}
+
+
+body {
+    background-color: #ffdd90;
+    background-image: url("/FRONTEND/ASSETS/img/DASH.jpg");
+    
+  }
+i.fa-brands.fa-square-facebook.fa-2xl:hover{
+    color: #ffffff;
+}
+i.fa-brands.fa-linkedin.fa-2xl:hover{
+    color: #ffffff;
+}
+i.fa-brands.fa-square-github.fa-2xl:hover{
+    color: #ffffff;
+}
+i.fa-solid.fa-user-lock.fa-xl:hover{
+    color: #ffffff;
+}
+i.fa-brands.fa-square-facebook.fa-2xl,
+i.fa-brands.fa-linkedin.fa-2xl,
+i.fa-brands.fa-square-github.fa-2xl,
+i.fa-solid.fa-user-lock.fa-xl,
+i.fa-solid.fa-user.fa-xl
+{
+    color: #0505ff;
+}
+
+.list-group.list-group-horizontal{
+    --bs-list-group-bg:transparent;
+    --bs-list-group-border-color: transparent;
+}
+
+
+.carousel-caption.d-none.d-md-block{
+    color: #00a2ff;
+    font-size: 1.5em;
+}
+
+
+.fotope{
+    position: absolute;
+    z-index: 1;
+ margin-left: -8em;
+ margin-top: -6em;
+
+}
+.d-block.w-100{
+    
+    z-index: 0;
+   
+   
+
+}
+#bajofoto{
+    text-align: center;
+    margin-top: 7em;
+    margin-left: -4em;
+}
+
+
+.contenido{
+    text-align: center;
+}
+.volver{
+    text-align: center;
+}
+#Experiencia{
+    margin-left: 3em;
+}
+
+#sobremi > div > div > div.col-6.mt-4{
+    margin-left: 3em;
+}
+#Experiencia > div > div > div{
+  margin-top: 2.5em;
+  
+ }
+#educacion{
+    margin-left: 3em;
+    margin-top: 2.5em;
+}
+/*hard y soft skills index*/
+
+#skills{
+    margin-top: 2.5em;
+    margin-left: 3em;
+    margin-right: 3em;  
+}
+.cont{
+    width: 100%;
+    background-color: #ddd;
+    
+
+}
+.skill {
+    text-align: right;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    
+}
+.html{
+    background-color: #0bf354d9;
+    animation: fillhtml 2s forwards;
+   
+}
+.css{
+    background-color: #0bf354d9;
+    animation: fillcss 2s forwards;
+   
+}
+.javascript{
+    background-color: #0bf354d9;
+    animation: filljs 2s forwards;
+}
+.comunicacion{
+    background-color: #1a0bf3d9;
+    animation: fillcom 2s forwards;
+}
+.resolucion{
+    background-color: #1a0bf3d9;
+    animation: fillres 2s forwards;
+}
+.creatividad{
+    background-color: #1a0bf3d9;
+    animation: fillcre 2s forwards;
+}
+/*hard skills*/
+@keyframes fillhtml{
+    0%{width: 0;}
+    100%{width: 90%;}
+}
+@keyframes fillcss{
+    0%{width: 0;}
+    100%{width: 60%;}
+}
+@keyframes filljs{
+    0%{width: 0;}
+    100%{width: 30%;}
+}
+/*soft skills*/
+
+@keyframes fillcom{
+    0%{width: 0;}
+    100%{width: 70%;}
+}
+@keyframes fillres{
+    0%{width: 0;}
+    100%{width: 75%;}
+}
+@keyframes fillcre{
+    0%{width: 0;}
+    100%{width: 90%;}
+}
+
+/*seccion de proyectos index*/
+#Proyectos{
+    margin-top: 2.5em;
+    margin-left: 3em;
+    margin-right: 3em;  
+}
+#proyecth2{
+    color: #058aff;
+}
+
+
+
+/*section margenes*/
+
+.margsecciones{
+    margin-left: 5em;
+}
+
+/*dashboard*/
+#dashboard{
+  padding-top: 2rem;
+}
+/*secciones dashboard*/
+
+.nav.flex-column.nav-pills.me-3{
+  margin-left: 0.5rem;
+}
+.nav-link.aux.active{
+    font-size: 1.5rem;
+}
+.nav-link.aux{
+    font-size: 1.5rem;
+}
+/*home*/
+#volver{
+    text-decoration: none;
+}
+/*textarea descripcion*/
+.Descri{
+  width: 100%;
+  height: 15rem;
+}
+/*desplazamiento botn descripcion*/
+.Bdes{
+    margin-top: 12.7rem;
+
+}
+/*TAMAÑO DE LETRA¨*/
+.form-label{
+font-size: 1.5rem;
+
+}
+
+#v-pills-tabContent{
+    margin-right: 2%;
+}
+#start{
+    width: 100%;
+    text-align: center;
+    font-size: 1.2rem;
+}
+#v-pills-skills{
+    font-size: 1.2rem;
+    width: 70%;
+}
+#v-pills-skills > button{
+    margin-left: 45%;
+}
+
+@media only screen and (max-width: 600px) {
+    header {
+        box-sizing: content-box;
+        width: 120%;
+    }
+  }
+
+  #v-pills-tabContent{
+    height: 100%;
+    width: 100%;
+    margin-left: 10%;
+    margin-right: 5%;
+  }
+  #gradoconocer{
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+/* tamaño de imput*/
+.form-check-label{
+    font-size: 1.5rem;
+}
+
+#formText{
+    font-size: 1.2rem;
+}
+#Descripciondash{
+    font-size: 1.2rem;
+}
+#exampleModalLabel{
+    padding-left: 45%;
+   
+}
+div.modal-header{
+    background: #020024;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,45,121,1) 13%, rgba(0,168,255,1) 100%);  
+}
+#exampleModal > div > div{
+    margin-top: 45%;
+}
+/*boton*/
+#modalbutton{
+width: 100%;
+
+}
+
